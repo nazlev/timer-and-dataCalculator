@@ -51,7 +51,6 @@ buttonStart.addEventListener('click', () => {
         timerShow.innerHTML = 0;
     }
     timerShow.innerHTML = timerInput.value;
-   
     clearInterval(interval);
     interval = setInterval(sustrTime, 1000);
 })
