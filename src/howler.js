@@ -3,4 +3,4 @@ export function getPlay() {
       src: ['audio/audio.mp3']
     });
     return sound.play();
-    }
+}
